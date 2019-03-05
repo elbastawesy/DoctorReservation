@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16b8db50-3450-4495-9dbe-24558c2b29d3" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../model/target/" />
+    <ignored path="$PROJECT_DIR$/../../spring-angular/target/" />
+    <ignored path="$PROJECT_DIR$/../../spring-boot-exception-handling-master/target/" />
+    <ignored path="$PROJECT_DIR$/../../springDemo/target/" />
+    <ignored path="$PROJECT_DIR$/../../spring-integration/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/doctor_reservation$ModelApplicationTests.ic" NAME="ModelApplicationTests Coverage Results" MODIFIED="1541841375860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.bastawesy.core.model.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mem:test" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mem:test" type="feb32156:DbDataSourceImpl" />
+        <item name="TEST: database" type="c8e2528e:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mem:test" type="feb32156:DbDataSourceImpl" />
+        <item name="TEST: database" type="c8e2528e:H2ImplModel$Database" />
+        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DoctorResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/DoctorResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoctorService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/bus/service/DoctorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReservationResource.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/ReservationResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../model/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../model/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityCRUDService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/bus/service/EntityCRUDService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoctorServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/bus/service/impl/DoctorServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReservationResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/rest/ReservationResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResourceConstraints.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/rest/ResourceConstraints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>deleteById</find>
+      <find>delete</find>
+      <find>merge</find>
+      <find>deleteAll</find>
+      <find>existsById</find>
+      <find>getErrorAttributes</find>
+      <find>UnrecognizedPropertyException</find>
+      <find>count</find>
+      <find>handleAllExceptions</find>
+      <find>h2</find>
+      <find>foo</find>
+      <find>boot</find>
+      <find>boots</find>
+      <find>LOG_LEVEL</find>
+      <find>DOCTOR_ID</find>
+      <find>HttpMessageNotWritableException</find>
+      <find>HttpMessageNotReadableException</find>
+      <find>json</find>
+      <find>JSON parse error</find>
+      <find>detail</find>
+      <find>ValidationException</find>
+      <find>entity_</find>
+      <find>Exception: Unable to process this request</find>
+      <find>===========================================</find>
+      <find>caller</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/util/exception/EntityNotFoundException.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/doctor_reservation/model/util/excpetion/EntityNotFoundException.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/doctor_reservation/model/entity/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/doctor_reservation/model/bus/service/impl/DoctorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/doctor_reservation/model/entity/Reservation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/DoctorReservationApplication.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/bus/service/impl/DoctorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../model/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/util/exception/DoctorValidator.java" />
+        <option value="$PROJECT_DIR$/backbaseApp.log.1" />
+        <option value="$PROJECT_DIR$/backbaseApp.log" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/repository/ReservationRespository.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/repository/PatientRepository.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/repository/DoctorRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/ErrorResource.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/ModelApplication.java" />
+        <option value="$PROJECT_DIR$/../../springDemo/src/main/java/com/bastawesy/springDemo/annotations/RequiredAnnotation.java" />
+        <option value="$PROJECT_DIR$/../../springDemo/src/main/java/com/bastawesy/springDemo/annotations/required/RequiredAnnotation.java" />
+        <option value="$PROJECT_DIR$/../../springDemo/src/main/java/com/bastawesy/springDemo/annotations/required/BeanTwo.java" />
+        <option value="$PROJECT_DIR$/../../springDemo/src/main/java/com/bastawesy/springDemo/annotations/required/BeanOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/resources/application.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6daec89f-d0ad-4ffa-b46f-ed56fd4a8a13/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../model/pom.xml" />
+        <option value="$PROJECT_DIR$/../model/src/test/java/com/bastawesy/core/model/ModelApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/MyCustomErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/CustomErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/doctor-reservation/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/doctor-reservation/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/doctor-reservation/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/main/webapp/doctor-reservation/package.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/doctor-reservation/angular.json" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/entity/SystemLog.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/bus/service/impl/EntityCRUDServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/DoctorReservationResource.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/H2Bootstrap.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/util/excpetion/ErrorDetails.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/entity/Doctor.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/entity/Patient.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/entity/Reservation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/util/exception/CustomErrorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/DoctorResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/util/exception/RestExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/PatientResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/SvisResource.java" />
+        <option value="$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/rest/SvisResource.java" />
+        <option value="$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/entity/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/ReservationResource.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/src/main/webapp/doctor-reservation-web/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../../spring-angular/src/main/webapp/angular2/node_modules" />
+    <handled-path value="$PROJECT_DIR$/../../spring-angular/src/main/webapp/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="doctor_reservation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="doctor_reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="doctor_reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="doctor_reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-reservation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="doctor-reservation-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="excpetion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_angular" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spring_angular" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-angular" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="doctor-reservation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="6daec89f-d0ad-4ffa-b46f-ed56fd4a8a13" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="doctor.java&#9;FILE&#9;file://D:/Mine/Work/Workspace/Intellij/Doctor Reservation/model/src/main/java/com/bastawesy/core/model/entity/Doctor.java&#10;DoctorService&#9;FILE&#9;file://D:/Mine/Work/Workspace/Intellij/Doctor Reservation/model/src/main/java/com/core/bus/service/DoctorService.java&#10;List&#9;PSI&#9;JAVA://java.util.List" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../assessment" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/../../spring-angular/src/main/webapp/angular2/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bastawesy.core.model" />
+      <recent name="com.bastawesy.doctor_reservation.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Mine\Work\Workspace\Intellij\Doctor Reservation\doctor-reservation\src\main\webapp\doctor-reservation\src\app" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bastawesy.spring_angular.rest" />
+      <recent name="com.bastawesy.doctor_reservation.rest.resource" />
+      <recent name="com.bastawesy.springDemo.annotations.required" />
+      <recent name="com.bastawesy.springDemo.annotations" />
+      <recent name="com.bastawesy.doctor_reservation.util.exception" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Mine\Work\Workspace\Intellij\Doctor Reservation\doctor-reservation\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.2159013" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Spring Boot">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ModelApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bastawesy.core.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.bastawesy.core.model" />
+      <option name="MAIN_CLASS_NAME" value="com.bastawesy.core.model.ModelApplicationTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Spring Boot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="doctor-reservation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bastawesy.doctor_reservation.DoctorReservationApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    </configuration>
+    <configuration name="SpringBootExceptionHandlingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-exception-handling" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootexceptionhandling.SpringBootExceptionHandlingApplication" />
+    </configuration>
+    <configuration name="SpringDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bastawesy.springDemo.SpringDemoApplication" />
+    </configuration>
+    <configuration name="SpringIntegrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-integration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bastawesy.springintegration.SpringIntegrationApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="core" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Spring Boot" />
+      <item itemvalue="Spring Boot.SpringBootExceptionHandlingApplication" />
+      <item itemvalue="Spring Boot.SpringDemoApplication" />
+      <item itemvalue="Spring Boot.SpringIntegrationApplication" />
+      <item itemvalue="JUnit.ModelApplicationTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ModelApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16b8db50-3450-4495-9dbe-24558c2b29d3" name="Default" comment="" />
+      <created>1538222171893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538222171893</updated>
+      <workItem from="1538222174114" duration="7590000" />
+      <workItem from="1538285006889" duration="1627000" />
+      <workItem from="1538899092123" duration="3604000" />
+      <workItem from="1538985090533" duration="3893000" />
+      <workItem from="1539060194713" duration="21224000" />
+      <workItem from="1539156475429" duration="4059000" />
+      <workItem from="1539236167686" duration="2343000" />
+      <workItem from="1539280453402" duration="4395000" />
+      <workItem from="1539285049857" duration="6730000" />
+      <workItem from="1539505869464" duration="10575000" />
+      <workItem from="1539605356687" duration="135000" />
+      <workItem from="1539614067383" duration="694000" />
+      <workItem from="1539676557976" duration="619000" />
+      <workItem from="1540631579025" duration="955000" />
+      <workItem from="1540709117128" duration="1133000" />
+      <workItem from="1540835956745" duration="1089000" />
+      <workItem from="1540838003425" duration="218000" />
+      <workItem from="1540886013622" duration="1433000" />
+      <workItem from="1540904403755" duration="1394000" />
+      <workItem from="1540918772164" duration="6068000" />
+      <workItem from="1540969248385" duration="4908000" />
+      <workItem from="1541054500640" duration="1417000" />
+      <workItem from="1541311848394" duration="596000" />
+      <workItem from="1541396026234" duration="1235000" />
+      <workItem from="1541577879448" duration="4362000" />
+      <workItem from="1541607361169" duration="1426000" />
+      <workItem from="1541654057811" duration="597000" />
+      <workItem from="1541656846268" duration="3136000" />
+      <workItem from="1541662719961" duration="3398000" />
+      <workItem from="1541674081426" duration="4803000" />
+      <workItem from="1541761611038" duration="627000" />
+      <workItem from="1541777320323" duration="1464000" />
+      <workItem from="1541840877154" duration="480000" />
+      <workItem from="1541924062993" duration="1665000" />
+      <workItem from="1541948179521" duration="839000" />
+      <workItem from="1542090574915" duration="1997000" />
+      <workItem from="1542134995597" duration="596000" />
+      <workItem from="1542175234573" duration="625000" />
+      <workItem from="1543245713043" duration="1427000" />
+      <workItem from="1543251633065" duration="216000" />
+      <workItem from="1543296558941" duration="4595000" />
+      <workItem from="1543311178527" duration="38000" />
+      <workItem from="1545392348843" duration="2332000" />
+      <workItem from="1545394974889" duration="4062000" />
+      <workItem from="1545402979460" duration="8685000" />
+      <workItem from="1545470383813" duration="3233000" />
+      <workItem from="1545541812908" duration="912000" />
+      <workItem from="1545546740785" duration="2350000" />
+      <workItem from="1545624851718" duration="2901000" />
+      <workItem from="1545636320946" duration="4006000" />
+      <workItem from="1545650476134" duration="1385000" />
+      <workItem from="1545668088183" duration="590000" />
+      <workItem from="1545719926404" duration="1092000" />
+      <workItem from="1545805214550" duration="3897000" />
+      <workItem from="1545812643399" duration="582000" />
+      <workItem from="1545894807459" duration="6462000" />
+      <workItem from="1545999417200" duration="3240000" />
+      <workItem from="1546071618251" duration="2880000" />
+      <workItem from="1546157551561" duration="2472000" />
+      <workItem from="1546240647540" duration="1869000" />
+      <workItem from="1546262208903" duration="3930000" />
+      <workItem from="1546323423986" duration="220000" />
+      <workItem from="1546346472728" duration="2361000" />
+      <workItem from="1546410499660" duration="587000" />
+      <workItem from="1546420859074" duration="263000" />
+      <workItem from="1546490646459" duration="1103000" />
+      <workItem from="1546497327745" duration="109000" />
+      <workItem from="1546589596267" duration="1718000" />
+      <workItem from="1546672479949" duration="2478000" />
+      <workItem from="1546935068398" duration="536000" />
+      <workItem from="1547015910117" duration="1158000" />
+      <workItem from="1547101856183" duration="588000" />
+      <workItem from="1547106086856" duration="601000" />
+      <workItem from="1547125726788" duration="340000" />
+      <workItem from="1547232369284" duration="593000" />
+      <workItem from="1547370271122" duration="595000" />
+      <workItem from="1547663634018" duration="468000" />
+      <workItem from="1547712718437" duration="592000" />
+      <workItem from="1547995308989" duration="25000" />
+      <workItem from="1547995687702" duration="754000" />
+      <workItem from="1549355916627" duration="173000" />
+      <workItem from="1549630821196" duration="2067000" />
+      <workItem from="1549638205046" duration="336000" />
+      <workItem from="1549797139672" duration="1476000" />
+      <workItem from="1549880106927" duration="5597000" />
+      <workItem from="1549958280639" duration="454000" />
+      <workItem from="1550146988543" duration="1802000" />
+      <workItem from="1550231504127" duration="557000" />
+      <workItem from="1550323370533" duration="560000" />
+      <workItem from="1550331658748" duration="415000" />
+      <workItem from="1550380592504" duration="594000" />
+      <workItem from="1550495384045" duration="1288000" />
+      <workItem from="1550576395110" duration="767000" />
+      <workItem from="1550737655769" duration="718000" />
+      <workItem from="1550739118459" duration="642000" />
+      <workItem from="1550742429392" duration="454000" />
+      <workItem from="1551615688415" duration="628000" />
+      <workItem from="1551780496584" duration="220000" />
+      <workItem from="1551780808190" duration="8074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ModelApplicationTests - 2018.11.08 at 11h 15m 49s.xml">
+      <configuration name="ModelApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelApplicationTests - 2018.11.13 at 09h 52m 08s.xml">
+      <configuration name="ModelApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelApplicationTests - 2018.11.13 at 09h 53m 36s.xml">
+      <configuration name="ModelApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelApplicationTests - 2018.11.13 at 09h 55m 17s.xml">
+      <configuration name="ModelApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelApplicationTests - 2018.11.13 at 09h 56m 15s.xml">
+      <configuration name="ModelApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelApplicationTests - 2018.11.13 at 09h 56m 56s.xml">
+      <configuration name="ModelApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelApplicationTests - 2018.11.13 at 09h 58m 09s.xml">
+      <configuration name="ModelApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelApplicationTests - 2018.11.13 at 09h 59m 49s.xml">
+      <configuration name="ModelApplicationTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ModelApplicationTests - 2018.11.13 at 10h 00m 27s.xml">
+      <configuration name="ModelApplicationTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="219115000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067115" side_tool="true" weight="0.3298969" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3295302" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
+      <window_info anchor="bottom" id="SBT Execute" order="8" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.6509573" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SBT Console" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" weight="0.41678938" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.33136967" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30268458" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.3295302" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.3298969" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.48306334" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url />
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url />
+          <line>8</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url />
+          <line>29</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url />
+          <line>36</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="135" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/entity/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final-sources.jar!/javax/validation/Valid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/entity/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.3.RELEASE/spring-boot-2.0.3.RELEASE-sources.jar!/org/springframework/boot/system/SystemProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/ResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/ControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="136" column="39" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="125" column="11" lean-forward="true" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="110" column="33" lean-forward="true" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/concurrent/BlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3486">
+          <caret line="199" column="17" selection-start-line="199" selection-start-column="17" selection-end-line="199" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3339">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/NavigableSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/SortedSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3003">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/src.zip!/java/util/Formattable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="118" column="17" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/rest/SvisResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/SvisResource.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/util/exception/CustomErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/PatientResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/DoctorReservationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/SpringAngularApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_71/jre/lib/rt.jar!/sun/reflect/Reflection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/util/excpetion/ErrorDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="75" lean-forward="true" selection-start-line="7" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/util/exception/RestExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar!/org/slf4j/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="366" column="13" selection-start-line="366" selection-start-column="7" selection-end-line="366" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="5" selection-start-line="2" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/entity/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="85" selection-end-column="1" />
+          <folding>
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/H2Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/repository/RoomRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/repository/PageableRoomRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/rest/ResourceConstraints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../spring-angular/src/main/java/com/bastawesy/spring_angular/rest/ReservationResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/DoctorResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/bus/service/impl/DoctorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/bus/service/DoctorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../model/src/main/java/com/bastawesy/core/model/bus/service/EntityCRUDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../model/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bastawesy/doctor_reservation/rest/resource/ReservationResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>doctor-reservation:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>core</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

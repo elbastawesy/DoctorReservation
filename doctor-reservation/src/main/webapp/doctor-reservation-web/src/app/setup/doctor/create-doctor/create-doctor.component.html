@@ -1,0 +1,120 @@
+<div class="container">
+  <h2>Create new doctor</h2>
+  <form class="form-horizontal" (ngSubmit)="onSubmitDoctorForm(createDoctorForm)" #createDoctorForm="ngForm">
+    <div class="form-group">
+      <label for="inputName" class="control-label col-xs-2">Name</label>
+      <div class="col-xs-10">
+        <input type="text" class="form-control" id="inputName" name="name"
+               [ngClass]="{ 'is-invalid': name.invalid }"
+               [(ngModel)]="doctor.name"
+               #name="ngModel" placeholder="Name" required>
+        <span class="help-block"
+              *ngIf="name.touched && !name.valid ">Please enter the Name Value</span>
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      <label for="inputAdress" class="control-label col-xs-2">Address</label>
+      <div class="col-xs-10">
+        <input type="text" class="form-control" id="inputAdress" name="address"
+               [ngClass]="{ 'is-invalid': address.invalid }"
+               [(ngModel)]="doctor.address"
+               #address="ngModel" placeholder="Address" required>
+        <span class="help-block"
+              *ngIf="address.touched && !address.valid ">Please enter the address Value</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="inputSpeciality" class="control-label col-xs-2">Speciality</label>
+      <div class="col-xs-10">
+        <input type="text" class="form-control" id="inputSpeciality" name="speciality"
+               [ngClass]="{ 'is-invalid': speciality.invalid }"
+               [(ngModel)]="doctor.speciality"
+               #speciality="ngModel" placeholder="Speciality" required>
+        <span class="help-block"
+              *ngIf="speciality.touched && !speciality.valid ">Please enter the speciality Value</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="inputEducation" class="control-label col-xs-2">Education</label>
+      <div class="col-xs-10">
+        <textarea class="form-control" id="inputEducation" name="education"
+                  [ngClass]="{ 'is-invalid': education.invalid }"
+                  [(ngModel)]="doctor.education"
+                  #education="ngModel" placeholder="Education" required></textarea>
+        <span class="help-block"
+              *ngIf="education.touched && !education.valid ">Please enter the education Value</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-xs-offset-2 col-xs-10">
+        <button type="submit" [disabled]="createDoctorForm.invalid" class="btn btn-primary">Create Doctor</button>
+      </div>
+    </div>
+  </form>
+  <div class="informationTable container-fluid form-group">
+    <table class="table-striped table-hover table-bordered col-sm-9">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Education</th>
+        <th>Speciality</th>
+        <th></th>
+      </tr>
+
+      <tbody *ngIf="doctors?.length>0; else emptyTemplate">
+        <tr *ngFor="let doctor of doctors">
+
+          <td>{{ doctor.id }}</td>
+          <td *ngIf="selectedIdForEdit != doctor.id">{{ doctor.name }}</td>
+          <td *ngIf="selectedIdForEdit != doctor.id">{{ doctor.address }}</td>
+          <td *ngIf="selectedIdForEdit != doctor.id">{{ doctor.education }}</td>
+          <td *ngIf="selectedIdForEdit != doctor.id">{{ doctor.speciality }}</td>
+          <td *ngIf="selectedIdForEdit != doctor.id">
+            <div class="col-xs-offset-2 col-xs-10">
+              <button (click)="onEditDoctor(doctor)" class="btn btn-primary">Edit Doctor</button>
+              <button (click)="deleteDoctor(doctor)" class="btn btn-primary btn-danger">Delete Doctor</button>
+            </div>
+          </td>
+
+
+          <ng-template [ngIf]="selectedIdForEdit === doctor.id">
+            <td>
+              <input type="text" [(ngModel)]="selectedDoctor.name" required>
+            </td>
+            <td>
+              <input type="text" [(ngModel)]="selectedDoctor.address" required>
+            </td>
+            <td>
+              <input type="text" [(ngModel)]="selectedDoctor.education" required>
+            </td>
+            <td>
+              <input type="text" [(ngModel)]="selectedDoctor.speciality" required>
+            </td>
+            <td >
+              <div class="col-xs-offset-2 col-xs-10">
+                <button type="button" (click)="applyEditDoctor()" class="btn btn-primary">Apply</button>
+                <button type="button" (click)="onCancelEditDoctor()" class="btn btn-primary btn-danger">Cancel</button>
+              </div>
+            </td>
+          </ng-template>
+
+
+        </tr>
+      </tbody>
+      <ng-template #emptyTemplate>
+        <tbody>
+        <tr>
+          <td colspan="6">
+            <h3>No data found</h3>
+          </td>
+        </tr>
+        </tbody>
+      </ng-template>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <div class="container-fluid">
+    <mat-toolbar *ngIf="isAuthinticated()">
+      <button mat-raised-button routerLink="../doctor" >Doctors </button>
+      <button mat-raised-button [routerLink]="['/patient']">Patient</button>
+      <button mat-raised-button [routerLink]="['/reservation']" >Reservation</button>
+      <button mat-raised-button (click)="logout()" >Logout</button>
+    </mat-toolbar>
+    <simple-notifications></simple-notifications>
+    <router-outlet></router-outlet>
+  </div>
+</div>

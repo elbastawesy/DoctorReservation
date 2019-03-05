@@ -1,0 +1,42 @@
+<div class="container">
+  <h2>Edit patient</h2>
+  <form class="form-horizontal" (ngSubmit)="onSubmitForm()" [formGroup]="editPatientForm" >
+    <div class="form-group">
+      <label for="inputName" class="control-label col-xs-2">Name</label>
+      <div class="col-xs-10">
+        <input type="text" class="form-control" id="inputName"
+               formControlName="patientName"
+               placeholder="Name">
+        <span class="help-block"
+              *ngIf="!editPatientForm.get('patientName').valid">Please enter the Name Value</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="gender" class="control-label col-xs-2">Gender</label>
+      <div class="col-xs-10">
+        <select id="gender" class="form-control" formControlName="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <span class="help-block"
+              *ngIf="!editPatientForm.get('gender').valid">Please enter the Gender Value</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="birthDate" class="control-label col-xs-2">Birth Date</label>
+      <div class="col-xs-10">
+        <input type="date" id="birthDate"
+               class="form-control" formControlName="birthDate" required>
+        <span class="help-block"
+              *ngIf="!editPatientForm.get('birthDate').valid">Please select the Birth Date</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-xs-offset-2 col-xs-10">
+        <button type="submit" [disabled]="editPatientForm.invalid" class="btn btn-primary">Edit Patient</button>
+      </div>
+    </div>
+  </form>
+</div>

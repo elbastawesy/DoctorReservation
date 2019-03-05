@@ -1,0 +1,51 @@
+
+<form class="form-horizontal" (ngSubmit)="submitAction()" [formGroup]="createReservationForm">
+  <!--========================================================================================
+              patient name drop down menu
+  ============================================================================================-->
+  <div class="form-group ">
+    <label for="patientName" class="col-sm-12 labelText">select patient name :</label>
+    <div class="col-xs-5">
+      <select id="patientName" class="form-control" name="selectedPatientId" formControlName="patient">
+        <option value=""></option>
+        <option *ngFor="let patient of patients" value="{{patient.id}}">{{patient.name}} - {{patient.birthDate}}</option>
+      </select>
+    </div>
+  </div>
+  <!--=======================================================================================
+             doctor name drop down menu
+   ============================================================================================-->
+  <div class="form-group">
+    <label for="doctorName" class="col-sm-12 labelText" >select doctor name :</label>
+    <div class="col-xs-5">
+      <select id="doctorName" class="form-control" name="selectedDoctorId" formControlName="doctor">
+        <option value=""></option>
+        <option *ngFor="let doctor of doctors" value="{{doctor.id}}">{{doctor.name}}</option>
+      </select>
+    </div>
+  </div>
+
+  <!--===============================================================================================================
+                 calender
+  ===================================================================================================================-->
+  <div class="form-group">
+    <label for="enterDate"class="col-sm-12 labelText">Enter Date :</label>
+    <div class="col-xs-4 dateInput">
+      <input type="datetime-local" id="enterDate" class="form-control " name="date" formControlName="dateTime">
+    </div>
+  </div>
+  <!--==============================================================================================================
+          comment text area
+  ===================================================================================================================-->
+  <div class="form-group">
+    <div class="col-sm-4">
+      <textarea id="comment" cols="70" rows="5" placeholder="Add Your Comment ........."  name="comment" formControlName="breifComplain"> </textarea>
+    </div>
+  </div>
+  <!--==============================================================================================================
+          information table
+  ===================================================================================================================-->
+  <div class="form-group container-fluid">
+    <button  type="submit" [disabled]="!createReservationForm.valid" class="btn btn-primary">save</button>
+  </div>
+</form>

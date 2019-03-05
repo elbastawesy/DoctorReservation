@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+form{
+  margin-top: 5%;
+}
+label,option{
+  text-transform: capitalize;
+
+}
+.labelText{
+  font-size: 20px;
+}
+th{
+  text-align: center;
+  font-size: 20px;
+  text-transform:uppercase;
+}
+tr{
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.informationTable{
+  margin-top: 2%;
+}
+input.ng-invalid.ng-touched
+{
+  border-color: red;
+}
+

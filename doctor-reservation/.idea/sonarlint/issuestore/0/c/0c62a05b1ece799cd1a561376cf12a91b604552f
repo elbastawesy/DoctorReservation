@@ -1,0 +1,7 @@
+
+bsquid:S2387!"D"logger" is the name of a field in "ResponseEntityExceptionHandler".(ğ‰–Â8ƒœİû-
+squid:S1192&"lDefine a constant instead of duplicating this literal "Exception: Unable to process this request. " 4 times.(‘îÄ¡ùÿÿÿÿ8ƒœİû-
+qsquid:UselessImportCheck"ARemove this unused import 'javax.validation.ValidationException'.(´­¸äûÿÿÿÿ8ƒœİû-
+esquid:CallToDeprecatedMethod!"6Remove this use of "getCallerClass"; it is deprecated.(ğ‰–Â8ƒœİû-
+}squid:UselessImportCheck"MRemove this unused import 'org.springframework.boot.system.SystemProperties'.(ÆêŒèúÿÿÿÿ8ƒœİû-
+Xsquid:S1191"5Use classes from the Java API instead of Sun classes.(ÓÈŠøÿÿÿÿÿ8ƒœİû-

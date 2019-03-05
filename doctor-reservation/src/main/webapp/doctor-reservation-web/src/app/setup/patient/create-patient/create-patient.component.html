@@ -1,0 +1,87 @@
+<div class="container">
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button aria-label="Close" class="close" data-dismiss="alert" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <h2>Create new patient</h2>
+  <form #patientCreateFrom="ngForm" (ngSubmit)="onSubmitPatientForm(patientCreateFrom)" class="form-horizontal">
+    <div class="form-group">
+      <label class="control-label col-xs-2" for="inputName">Name</label>
+      <div class="col-xs-10">
+        <input #name="ngModel" [ngClass]="{ 'is-invalid': name.invalid }" class="form-control" id="inputName"
+               name="name"
+               ngModel
+               placeholder="Name" required type="text">
+        <span *ngIf="name.touched && !name.valid "
+              class="help-block">Please enter the Name Value</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-xs-2" for="gender">Gender</label>
+      <div class="col-xs-10">
+        <select #gender="ngModel" class="form-control" id="gender"
+                name="gender" ngModel
+                required>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <span *ngIf="gender.touched && !gender.valid "
+              class="help-block">Please enter the Gender Value</span>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-xs-2" for="birthDate">Birth Date</label>
+      <div class="col-xs-10">
+        <input #birthDate="ngModel" class="form-control"
+               id="birthDate" name="birthDate"
+               ngModel required type="date">
+        <span *ngIf="birthDate.touched && !birthDate.valid "
+              class="help-block">Please select the Birth Date</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-xs-offset-2 col-xs-10">
+        <button [disabled]="patientCreateFrom.invalid" class="btn btn-primary" type="submit">Create Patient</button>
+      </div>
+    </div>
+  </form>
+  <div class="informationTable container-fluid form-group">
+    <table class="table-striped table-hover table-bordered col-sm-9">
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>BirthDate</th>
+        <th>Gender</th>
+        <th></th>
+      </tr>
+
+      <tbody *ngIf="patients?.length>0; else emptyTemplate">
+      <tr *ngFor="let patient of patients">
+
+        <td>{{ patient.id }}</td>
+        <td>{{ patient.name }}</td>
+        <td>{{ patient.birthDate }}</td>
+        <td>{{ patient.gender }}</td>
+        <td>
+          <div class="col-xs-offset-2 col-xs-10">
+            <button (click)="onEditBtnClick(patient.id)" class="btn btn-primary">Edit Patient</button>
+          </div>
+        </td>
+      </tr>
+      </tbody>
+      <ng-template #emptyTemplate>
+        <tbody>
+        <tr>
+          <td colspan="6">
+            <h3>No data found</h3>
+          </td>
+        </tr>
+        </tbody>
+      </ng-template>
+    </table>
+  </div>
+</div>

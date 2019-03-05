@@ -1,0 +1,24 @@
+<app-search></app-search>
+<div class="informationTable container-fluid form-group">
+  <table class="table-striped table-hover table-bordered col-sm-9">
+    <tr>
+      <th>patient name</th>
+      <th>doctor name</th>
+      <th>date</th>
+    </tr>
+    <tbody *ngIf="reservations?.length>0; else emptyTemplate">
+      <tr *ngFor="let reservation of reservations">
+        <td>{{ reservation.patient.name }}</td>
+        <td>{{ reservation.doctor.name }}</td>
+        <td>{{ reservation.dateTime }}</td>
+      </tr>
+    </tbody>
+    <ng-template #emptyTemplate>
+      <tbody>
+      <tr>
+        <h3>No data found</h3>
+      </tr>
+      </tbody>
+    </ng-template>
+  </table>
+</div>
