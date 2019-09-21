@@ -1,75 +1,45 @@
 package com.bastawesy.core.util.excpetion;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 import org.springframework.http.HttpStatus;
 
 import java.io.Serializable;
-import java.util.Date;
 
+@Data
+@AllArgsConstructor
+@Builder
 public class ErrorDetails implements Serializable {
-    private Date timestamp;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private long timestamp;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private int httpStatusCode;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private HttpStatus httpStatus;
     // 1 for success and 0 for fail
-    private int requestStatus;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private RequestStatus requestStatus;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String message;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private String developerMessage;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String details;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private String stackTrace;
 
-    public ErrorDetails(){}
+    public enum RequestStatus {
+        SUCCESS(1), FAILED(0);
+        private int value;
 
-    public ErrorDetails(Date timestamp, int httpStatusCode, HttpStatus httpStatus, int requestStatus, String messagee, String details) {
-        this.timestamp = timestamp;
-        this.httpStatusCode = httpStatusCode;
-        this.httpStatus = httpStatus;
-        this.requestStatus = requestStatus;
-        this.message = messagee;
-        this.details = details;
-    }
+        RequestStatus(int value) {
+            this.value = value;
+        }
 
-    public Date getTimestamp() {
-        return timestamp;
-    }
-
-    public void setTimestamp(Date timestamp) {
-        this.timestamp = timestamp;
-    }
-
-    public int getHttpStatusCode() {
-        return httpStatusCode;
-    }
-
-    public void setHttpStatusCode(int httpStatusCode) {
-        this.httpStatusCode = httpStatusCode;
-    }
-
-    public HttpStatus getHttpStatus() {
-        return httpStatus;
-    }
-
-    public void setHttpStatus(HttpStatus httpStatus) {
-        this.httpStatus = httpStatus;
-    }
-
-    public int getRequestStatus() {
-        return requestStatus;
-    }
-
-    public void setRequestStatus(int requestStatus) {
-        this.requestStatus = requestStatus;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public String getDetails() {
-        return details;
-    }
-
-    public void setDetails(String details) {
-        this.details = details;
+        public int getValue() {
+            return value;
+        }
     }
 }

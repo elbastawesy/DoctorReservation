@@ -40,7 +40,13 @@ public class Doctor extends BaseEntity {
 
     @PrePersist
     public void validatePrePersist() {
-        super.validatePrePersist();
+        super.validateEntity();
+    }
+
+
+    @PreUpdate
+    public void validatePreUpdate() {
+        super.validateEntity();
     }
 
 

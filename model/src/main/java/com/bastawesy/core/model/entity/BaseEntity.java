@@ -13,18 +13,9 @@ import java.util.Set;
 
 public class BaseEntity implements Serializable {
 
-    protected final Logger logger = LoggerFactory.getLogger(Reflection.getCallerClass());
+    protected final Logger logger = LoggerFactory.getLogger(BaseEntity.class);
 
-
-    public void validatePrePersist() {
-        this.validateEntity();
-    }
-
-    public void validatePreUpdate() {
-        this.validateEntity();
-    }
-
-    private void validateEntity(){
+    public void validateEntity(){
         Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
         Set<ConstraintViolation<BaseEntity>> constraintViolations = validator.validate(this);
         if (constraintViolations != null && !constraintViolations.isEmpty()) {

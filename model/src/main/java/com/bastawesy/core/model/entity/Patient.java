@@ -38,7 +38,13 @@ public class Patient extends BaseEntity {
 
     @PrePersist
     public void validatePrePersist() {
-        super.validatePrePersist();
+        super.validateEntity();
+    }
+
+
+    @PreUpdate
+    public void validatePreUpdate() {
+        super.validateEntity();
     }
 
 

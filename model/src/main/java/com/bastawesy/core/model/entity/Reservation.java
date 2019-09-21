@@ -42,9 +42,14 @@ public class Reservation extends BaseEntity {
 
     @PrePersist
     public void validatePrePersist() {
-        super.validatePrePersist();
+        super.validateEntity();
     }
 
+
+    @PreUpdate
+    public void validatePreUpdate() {
+        super.validateEntity();
+    }
 
     public long getId() {
         return id;
